@@ -1,6 +1,7 @@
 # PovoGigaPost
 
 https://github.com/vascarpenter/PovoGigaPost
+![Screenshot](https://user-images.githubusercontent.com/35152765/190845920-19b638f8-c7e5-4e7b-9965-83cfefc36e34.png)
 
 ### povo のデータ使用量を日々postしていくandroidアプリ
 
@@ -120,12 +121,12 @@ pub async fn povoapipost(db: web::Data<Pool<OracleConnectionManager>>,
 
 - build.gradle :app から ３つの文字列を参照しているので 
 - `~/.gradle/gradle.properties` に追加しておく
-  ```
-  # 自分のサイトにあった設定に差し替えてね
-  povopostapiurl=https://ogehage.tk/post
-  povogetapiurl=https://ogehage.tk/get?apikey=THEKEY
-  povoapikey=THEKEY
-  ```
+```
+# 自分のサイトにあった設定に差し替えてね
+povopostapiurl=https://ogehage.tk/post
+povogetapiurl=https://ogehage.tk/get?apikey=THEKEY
+povoapikey=THEKEY
+```
 - kotlin ソース内で参照してます
 - 画面下にこれまでの投稿歴を表示し、上で投稿するパターン
 
