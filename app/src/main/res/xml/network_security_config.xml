@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" >
+        <trust-anchors>
+            <certificates src="@raw/cert" />
+            <certificates src="@raw/isrgrootx1" />
+            <certificates src="@raw/letsencryptauthorityx3" />
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
