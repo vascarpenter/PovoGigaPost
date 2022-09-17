@@ -1,6 +1,6 @@
 # PovoGigaPost
 
-https://github.com/
+https://github.com/vascarpenter/PovoGigaPost
 
 ### povo のデータ使用量を日々postしていくandroidアプリ
 
